@@ -22,11 +22,13 @@ function sortearAmigo() {
     if (nomes.length === 0) {
         alert("Nenhum nome disponível para o sorteio.");
     } 
+
     // Verifica se há pelo menos dois nomes na lista
-    if (nomes.leght < 2){
+    if (nomes.length < 2){
         alert('Favor insira mais um nome para sorteio!');
         return;
     }
+    
     else {
         let sorteado = nomes[Math.floor(Math.random() * nomes.length)];
         let itemResultado = document.createElement("li");
