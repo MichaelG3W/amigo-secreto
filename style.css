@@ -160,3 +160,12 @@ ul {
 .button-draw:hover {
     background-color: var(--color-button-hover);
 }
+
+.button-reset {
+    width: 100%;
+    padding: 10px 40px;
+    margin-top: 20px;
+    color: var(--color-white);
+    background-color: var(--color-button);
+    font-size: 16px;
+}
